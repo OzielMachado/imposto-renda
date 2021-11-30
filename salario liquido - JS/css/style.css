@@ -1,0 +1,63 @@
+*{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-between;
+	background-color: #f0edf7;
+}
+
+main{
+	display:flex;
+	flex-direction: row;
+}
+
+h1{
+	padding:4vw;
+	text-align: center;
+}
+
+p{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin:2vw;
+	text-align: center;
+	align-content: space-between;
+}
+
+p input{
+	border-radius: 15px;
+	line-height: 2;
+	text-align: center;
+}
+
+#btMostrarSalario{
+	border-radius: 20px;
+	line-height: 1.5;
+	background-color: #6A5ACD;
+	color: white;
+	padding: 5px 15px;
+	font-size: 1.1em;
+}
+
+#btMostrarSalario:hover{
+	background-color: white;
+	color: #6A5ACD;
+}
+
+table{
+	margin-top: 5vh;
+}
+
+td{
+	text-align:center;
+	border: 1px solid #6A5ACD;
+	padding: 4px;
+}
