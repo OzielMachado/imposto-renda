@@ -1,5 +1,3 @@
-var acumulador = "";
-
 function calcularSalarioLiquido() {
     var inNome = document.getElementById("inNome");
     var inDependentes = document.getElementById("inDependentes");
